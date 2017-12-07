@@ -1,6 +1,6 @@
 {
   "name": "nuxt",
-  "version": "1.0.0-rc11",
+  "version": "1.0.0-gh-ba28646",
   "description": "A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)",
   "contributors": [
     {
@@ -57,7 +57,7 @@
     "make-start": "node ./build/start.js",
     "precommit": "npm run lint",
     "postinstall": "opencollective postinstall || exit 0",
-    "release-next": "npm run build && node ./build/release-next && npm publish --tag next"
+    "release-next": "npm run build && node ./build/release-next"
   },
   "engines": {
     "node": ">=6.11",
@@ -142,6 +142,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "express": "^4.16.2",
     "finalhandler": "^1.1.0",
+    "ipaddr.js": "^1.5.4",
     "jsdom": "^11.5.1",
     "json-loader": "^0.5.7",
     "nyc": "^11.3.0",

@@ -1,0 +1,2 @@
+webpackJsonp([22],{nemw:function(e,n,t){"use strict";var u={render:function(){var e=this.$createElement;return(this._self._c||e)("nuxt")},staticRenderFns:[]};n.a=u},uXVz:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var u=t("nemw"),r=t("VU/8")(null,u.a,!1,null,null,null);n.default=r.exports}});
+//# sourceMappingURL=default.ddd2ed504fb3e076c71a.js.map
